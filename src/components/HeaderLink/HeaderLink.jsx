@@ -2,8 +2,8 @@ import "./HeaderLink.css"
 
 export default function HeaderLink({src}) {
     return(
-        <a href="/" className="rick-link">
-            <img src={src} alt="Rick" className="rick-img" />
+        <a href="/" className="nav-link">
+            <img src={src} alt="Home" className="nav-icon" />
         </a>
     )
 }
