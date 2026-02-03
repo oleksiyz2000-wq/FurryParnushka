@@ -8,7 +8,7 @@
   border: 1px solid black;
 }
 
-.btn {
+.header-btn {
   color: black;
   text-decoration: none;
   font-size: 1.20rem;
@@ -18,18 +18,18 @@
   align-items: center;
 }
 
-.btn:hover {
+.header-btn:hover {
   color: #ff9800;
 }
 
-.btn3 {
+.header-btn-primary {
   border-radius: 10px;
   border: 1px solid #ff9800;
   font-size: 16px;
   padding: 10px;
 }
 
-.btn3:hover {
+.header-btn-primary:hover {
   background-color: #ff9800;
   color: white;
 }

@@ -1,9 +1,9 @@
 import "./HeaderButton.css"
 
 export default function HeaderButton({text, href, isPrimary}) {
-    let style = "btn";
+    let style = "header-btn";
     if (isPrimary) {
-        style = "btn btn3";
+        style = "header-btn header-btn-primary";
     }
     return(
          <li>

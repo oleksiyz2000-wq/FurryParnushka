@@ -7,7 +7,7 @@ import './header.css'
 export default function Header() {
   return (
     <header className="header">
-      <HeaderLink src={Rick} />
+      <HeaderLink src={Rick} alt="Home" />
       <ul className="ulstyle">
         <HeaderButton text="Docs" href="/" isPrimary={false} />
         <HeaderButton text="About" href="/" isPrimary={false} />
