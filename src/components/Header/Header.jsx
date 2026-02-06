@@ -4,14 +4,28 @@ import HeaderLink from '../HeaderLink/HeaderLink.jsx'
 
 import './header.css'
 
+const ButtonsContent = [
+    { text: 'Docs', href: '/', isPrimary: false },
+    { text: 'About', href: '/', isPrimary: false },
+    { text: 'SUPPORT US', href: '/', isPrimary: true },
+]
+
 export default function Header() {
   return (
     <header className="header">
       <HeaderLink src={Rick} alt="Home" />
       <ul className="ulstyle">
-        <HeaderButton text="Docs" href="/" isPrimary={false} />
+        {/* <HeaderButton text="Docs" href="/" isPrimary={false} />
         <HeaderButton text="About" href="/" isPrimary={false} />
-        <HeaderButton text="Support Us" href="/" isPrimary={true} />
+        <HeaderButton text="Support Us" href="/" isPrimary={true} /> */}
+        {ButtonsContent.map((button, index) => (
+          <HeaderButton
+            key={index}
+            text={button.text}
+            href={button.href}
+            isPrimary={button.isPrimary}
+          />
+        ))}
       </ul>
     </header>
   )

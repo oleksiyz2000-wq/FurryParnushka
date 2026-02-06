@@ -1,16 +1,16 @@
 const stats = [
-    {label: 'CHARACTERS', value: 0},
-    {label: 'LOCATIONS', value: 0},
-    {label: 'EPISODES', value: 0},
+    { label: 'CHARACTERS', value: 0, url: '/'},
+    { label: 'LOCATIONS', value: 0, url: '/a' },
+    { label: 'EPISODES', value: 0, url: '/' },
 ];
 
 import "./Footer.css";
 
 export default function Footer() {
     return (
-    <footer className="footer">
+        <footer className="footer">
             <ul className="footer__stats">
-                <li className="footer__stats-item">
+                {/* <li className="footer__stats-item">
                     <a href="/">{stats[0].label}: {stats[0].value}</a>
                 </li>
                 <li className="footer__stats-item">
@@ -18,12 +18,19 @@ export default function Footer() {
                 </li>
                 <li className="footer__stats-item">
                     <a href="/">{stats[2].label}: {stats[2].value}</a>
-                </li>
+                </li> */}
+                {stats.map((item, index) => (
+                    <li key={index} className="footer__stats-item">
+                        <a href={item.url}>
+                            {item.label}: {item.value}
+                        </a>
+                    </li>
+                ))}
             </ul>
-            <a className="server-status">          
+            <a className="server-status">
                 <span className="server-status__text">SERVER STATUS</span>
                 <span className="server-status__indicator"></span>
             </a>
-    </footer>
+        </footer>
     )
 }
