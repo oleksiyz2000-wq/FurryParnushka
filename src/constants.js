@@ -11,5 +11,5 @@ export const stats = [
 ];
 
 export const cardsContent = [
-    { img: ''}
+    { img: '/src/assets/AquaRick.png' },
 ];
