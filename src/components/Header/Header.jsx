@@ -4,11 +4,7 @@ import HeaderLink from '../HeaderLink/HeaderLink.jsx'
 
 import './header.css'
 
-const ButtonsContent = [
-    { text: 'Docs', href: '/', isPrimary: false },
-    { text: 'About', href: '/', isPrimary: false },
-    { text: 'SUPPORT US', href: '/', isPrimary: true },
-]
+import { ButtonsContent } from '../../constants.js'
 
 export default function Header() {
   return (

@@ -1,8 +1,4 @@
-const stats = [
-    { label: 'CHARACTERS', value: 0, url: '/'},
-    { label: 'LOCATIONS', value: 0, url: '/a' },
-    { label: 'EPISODES', value: 0, url: '/' },
-];
+import { stats } from "../../constants";
 
 import "./Footer.css";
 
