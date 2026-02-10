@@ -6,10 +6,17 @@ export const ButtonsContent = [
 
 export const stats = [
     { label: 'CHARACTERS', value: 0, url: '/'},
-    { label: 'LOCATIONS', value: 0, url: '/a' },
+    { label: 'LOCATIONS', value: 0, url: '/' },
     { label: 'EPISODES', value: 0, url: '/' },
 ];
 
 export const cardsContent = [
-    { img: '/src/assets/AquaRick.png' },
+    { 
+        img: '/src/assets/AquaRick.png',
+        name: 'Aqua Rick',
+        status: 'Unknown',
+        species: 'Humanoid',
+        LastKnownLocation: 'Citadel of Ricks',
+        FirstSeenIn: 'Close Rick-counters of the Rick Kind',
+    }
 ];
