@@ -31,8 +31,20 @@
     font-size: 0.95rem;
 }
 
+.section span {
+    color: #9e9e9e;
+}
+
 .section--top {
     font-size: 1rem;
+}
+
+.section--top h2 {
+    font-weight: 800;
+}
+
+.section--top span {
+    color: white;
 }
 
 .status {
@@ -49,3 +61,7 @@
     background-color: #9e9e9e;
     margin-top: 5px;
 }
+
+.bg-green-500 { background-color: #55cc44; }
+.bg-red-500 { background-color: #d63d2e; }
+.bg-gray-400 { background-color: #9e9e9e; }

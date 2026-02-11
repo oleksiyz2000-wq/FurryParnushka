@@ -1,8 +1,8 @@
 import "./CardsSection.css";
 
-import CharacterCard from "./CharacterCard/CharacterCard";
+import CharacterCard from "./CharacterCard/CharacterCard.jsx";
 
-import { сardsContent } from "../../../constants.js";
+import { сardsContent } from "/src/constants.js";
 
 export default function CardsSection() {
     return(

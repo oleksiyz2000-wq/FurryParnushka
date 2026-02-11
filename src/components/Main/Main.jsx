@@ -1,5 +1,5 @@
-import HeroSection from "./HeroSection/HeroSection";
-import CardsSection from "./CardsSection/CardsSection";
+import HeroSection from "./components/HeroSection/HeroSection.jsx";
+import CardsSection from "./components/CardsSection/CardsSection.jsx";
 
 import "./Main.css";
 

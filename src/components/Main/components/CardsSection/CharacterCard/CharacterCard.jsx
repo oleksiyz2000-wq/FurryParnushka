@@ -1,5 +1,11 @@
 import './CharacterCard.css';
 
+const statusMap = {
+  Alive: 'bg-green-500',
+  Dead: 'bg-red-500',
+  unknown: 'bg-gray-400'
+};
+
 export default function CharacterCard( {img, name, status, species, LastKnownLocation, FirstSeenIn} ) {
     return(
         <>
@@ -13,7 +19,8 @@ export default function CharacterCard( {img, name, status, species, LastKnownLoc
                         <h2 className='characterCard__Name'>{name}</h2>
                     </a>
                     <span className='status'>
-                        <span className='status__indicator'></span>
+                        {/* <span className='status__indicator'></span> */}
+                        <span className={`status__indicator ${statusMap[status]}`}></span>
                         {status} - {species}
                     </span>
                 </div>
