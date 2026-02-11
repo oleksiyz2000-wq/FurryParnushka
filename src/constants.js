@@ -10,7 +10,7 @@ export const stats = [
     { label: 'EPISODES', value: 0, url: '/' },
 ];
 
-export const cardsContent = [
+export const сardsContent = [
     { 
         img: '/src/assets/AquaRick.png',
         name: 'Aqua Rick',
@@ -18,5 +18,44 @@ export const cardsContent = [
         species: 'Humanoid',
         LastKnownLocation: 'Citadel of Ricks',
         FirstSeenIn: 'Close Rick-counters of the Rick Kind',
-    }
+    },
+    { 
+        img: '/src/assets/AquaRick.png',
+        name: 'Aqua Rick',
+        status: 'Unknown',
+        species: 'Humanoid',
+        LastKnownLocation: 'Citadel of Ricks',
+        FirstSeenIn: 'Close Rick-counters of the Rick Kind',
+    },
+    { 
+        img: '/src/assets/AquaRick.png',
+        name: 'Aqua Rick',
+        status: 'Unknown',
+        species: 'Humanoid',
+        LastKnownLocation: 'Citadel of Ricks',
+        FirstSeenIn: 'Close Rick-counters of the Rick Kind',
+    },
+    { 
+        img: '/src/assets/AquaRick.png',
+        name: 'Aqua Rick',
+        status: 'Unknown',
+        species: 'Humanoid',
+        LastKnownLocation: 'Citadel of Ricks',
+        FirstSeenIn: 'Close Rick-counters of the Rick Kind',
+    },{ 
+        img: '/src/assets/AquaRick.png',
+        name: 'Aqua Rick',
+        status: 'Unknown',
+        species: 'Humanoid',
+        LastKnownLocation: 'Citadel of Ricks',
+        FirstSeenIn: 'Close Rick-counters of the Rick Kind',
+    },
+    { 
+        img: '/src/assets/AquaRick.png',
+        name: 'Aqua Rick',
+        status: 'Unknown',
+        species: 'Humanoid',
+        LastKnownLocation: 'Citadel of Ricks',
+        FirstSeenIn: 'Close Rick-counters of the Rick Kind',
+    },
 ];
