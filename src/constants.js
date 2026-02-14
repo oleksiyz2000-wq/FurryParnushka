@@ -18,6 +18,12 @@ export const сardsContent = [
         species: 'Human',
         LastKnownLocation: 'Earth (Replacement Dimension)',
         FirstSeenIn: 'Close Rick-counters of the Rick Kind',
+
+        links: {
+            character: "/",
+            location: "/",
+            episode: "/",
+        }
     },
     { 
         img: '/src/assets/MortyMartManagerMorty.png',
@@ -26,6 +32,12 @@ export const сardsContent = [
         species: 'Human',
         LastKnownLocation: 'Citadel of Ricks',
         FirstSeenIn: 'The Ricklantis Mixup',
+
+        links: {
+            character: "/",
+            location: "/",
+            episode: "/",
+        }
     },
     { 
         img: '/src/assets/BabyRick.png',
@@ -34,6 +46,12 @@ export const сardsContent = [
         species: 'Human',
         LastKnownLocation: 'Citadel of Ricks',
         FirstSeenIn: 'The Ricklantis Mixup',
+
+        links: {
+            character: "/",
+            location: "/",
+            episode: "/",
+        }
     },
     { 
         img: '/src/assets/P-CoatRick.png',
@@ -42,6 +60,12 @@ export const сardsContent = [
         species: 'Human',
         LastKnownLocation: 'Citadel of Ricks',
         FirstSeenIn: 'The Ricklantis Mixup',
+
+        links: {
+            character: "/",
+            location: "/",
+            episode: "/",
+        }
     },
     { 
         img: '/src/assets/CoatRackHead.png',
@@ -50,6 +74,12 @@ export const сardsContent = [
         species: 'Mythological Creature',
         LastKnownLocation: 'Hell',
         FirstSeenIn: 'Amortycan Grickfitti',
+
+        links: {
+            character: "/",
+            location: "/",
+            episode: "/",
+        }
     },
     { 
         img: '/src/assets/AquaRick.png',
@@ -58,5 +88,11 @@ export const сardsContent = [
         species: 'Humanoid',
         LastKnownLocation: 'Citadel of Ricks',
         FirstSeenIn: 'Close Rick-counters of the Rick Kind',
+
+        links: {
+            character: "/",
+            location: "/",
+            episode: "/",
+        }
     },
 ];

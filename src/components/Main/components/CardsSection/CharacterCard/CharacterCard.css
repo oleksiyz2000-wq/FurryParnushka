@@ -3,7 +3,6 @@
     background-color: rgb(60, 62, 68);
     max-width: 600px;
     margin: 15px;
-    /* width: 600px; */
     height: 220px;
     border-radius: 0.5rem;
     flex: 0 1 600px;
@@ -29,6 +28,15 @@
     flex-direction: column;
     color: white;
     font-size: 0.95rem;
+}
+
+.section a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.section a:hover {
+    color: #ff9800;
 }
 
 .section span {

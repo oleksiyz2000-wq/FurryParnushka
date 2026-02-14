@@ -17,6 +17,7 @@ export default function CardsSection() {
                         species={card.species}
                         LastKnownLocation={card.LastKnownLocation}
                         FirstSeenIn={card.FirstSeenIn}
+                        links={card.links}
                     />
                 ))}
             </div>
