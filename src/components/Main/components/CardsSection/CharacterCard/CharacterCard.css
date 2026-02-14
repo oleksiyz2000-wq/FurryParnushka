@@ -9,9 +9,15 @@
 }
 
 .characterCard__Img {
+    display: block;
+    width: 100%;
     height: 100%;
     border-top-left-radius: 0.5rem;
     border-bottom-left-radius: 0.5rem;
+}
+
+.characterCard__ImgWrapper {
+    width: 220px;
 }
 
 .characterCard__ContentWrapper {
