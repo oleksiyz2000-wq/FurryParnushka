@@ -5,9 +5,9 @@ export const ButtonsContent = [
 ];
 
 export const stats = [
-    { label: 'CHARACTERS', value: 0, url: '/'},
-    { label: 'LOCATIONS', value: 0, url: '/' },
-    { label: 'EPISODES', value: 0, url: '/' },
+    { label: 'CHARACTERS', value: 826, url: '/'},
+    { label: 'LOCATIONS', value: 126, url: '/' },
+    { label: 'EPISODES', value: 51, url: '/' },
 ];
 
 export const сardsContent = [
@@ -96,3 +96,5 @@ export const сardsContent = [
         }
     },
 ];
+
+export const isOnline = true;

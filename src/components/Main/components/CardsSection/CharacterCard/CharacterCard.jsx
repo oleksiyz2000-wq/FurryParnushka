@@ -3,7 +3,7 @@ import './CharacterCard.css';
 const statusMap = {
     Alive: 'bg-green-500',
     Dead: 'bg-red-500',
-    unknown: 'bg-gray-400'
+    unknown: 'bg-gray-400',
 };
 
 export default function CharacterCard( {img, name, status, species, LastKnownLocation, FirstSeenIn, links} ) {

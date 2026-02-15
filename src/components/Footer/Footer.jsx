@@ -2,7 +2,18 @@ import { stats } from "../../constants";
 
 import "./Footer.css";
 
+import { isOnline } from "../../constants";
+
+let statusColorClass = "";
+
 export default function Footer() {
+
+    if (isOnline === true) {
+        statusColorClass = "bg-green";
+    } else {
+        statusColorClass = "bg-red";
+    }
+
     return (
         <footer className="footer">
             <ul className="footer__stats">
@@ -24,8 +35,8 @@ export default function Footer() {
                 ))}
             </ul>
             <a className="server-status">
-                <span className="server-status__text">SERVER STATUS</span>
-                <span className="server-status__indicator"></span>
+                <span className="server-status__text" >SERVER STATUS</span>
+                <span className={"server-status__indicator " + statusColorClass}></span>
             </a>
         </footer>
     )
