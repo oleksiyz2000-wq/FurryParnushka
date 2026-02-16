@@ -2,19 +2,23 @@
   list-style: none;
   display: flex;
   gap: 45px;
-  margin-right: 30px;
   align-items: center;
 }
 
 .header-btn {
-  color: black;
-  text-decoration: none;
+  color: #333333;
   font-size: 1.20rem;
   transition: color 0.2s ease;
   height: 40px;
   display: flex;
   align-items: center;
   font-weight: 650;
+}
+
+.a-style {
+  align-items: center;
+  text-decoration: none;
+  display: flex;
 }
 
 .header-btn:hover {
@@ -32,3 +36,33 @@
   background-color: #ff9800;
   color: white;
 }
+
+.special-div {
+  display: none;
+  background-color: #ff9800;
+  width: 35px;
+  height: 35px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25%;
+}
+
+.special-svg {
+  width: 80%;
+  height: 80%;
+}
+
+@media (max-width: 650px) {
+  .ulstyle {
+    gap: 30px;
+  }
+
+  .header-btn-primary {
+    display: none;
+  }
+
+  .special-div {
+    display: flex;
+  }
+}
+

@@ -28,3 +28,9 @@
         font-size: 4.2rem;
     }
 }
+
+@media (max-width: 340px) {
+    .hero__title {
+        font-size: 3rem;
+    }
+}

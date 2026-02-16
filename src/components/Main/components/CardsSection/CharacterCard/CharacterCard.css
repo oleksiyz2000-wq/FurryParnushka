@@ -79,3 +79,26 @@
 .bg-green-500 { background-color: #55cc44; }
 .bg-red-500 { background-color: #d63d2e; }
 .bg-gray-400 { background-color: #9e9e9e; }
+
+@media (max-width: 650px) {
+    .character-card {
+        flex-direction: column; 
+        height: auto;
+        max-width: 100%;
+    }
+
+    .characterCard__ImgWrapper {
+        width: 100%;
+        height: 250px;
+    }
+
+    .characterCard__Img {
+        object-fit: cover;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 0.5rem;
+    }
+
+    .characterCard__ContentWrapper {
+        gap: 25px;
+    }
+}

@@ -1,13 +1,17 @@
+export const isOnline = null;
+
 export const ButtonsContent = [
     { text: 'Docs', href: '/', isPrimary: false },
     { text: 'About', href: '/', isPrimary: false },
     { text: 'SUPPORT US', href: '/', isPrimary: true },
 ];
 
+export const specialIconSrc = '/src/assets/Hearth.png';
+
 export const stats = [
-    { label: 'CHARACTERS', value: 826, url: '/'},
-    { label: 'LOCATIONS', value: 126, url: '/' },
-    { label: 'EPISODES', value: 51, url: '/' },
+    { label: 'CHARACTERS', value: 826, href: '/'},
+    { label: 'LOCATIONS', value: 126, href: '/' },
+    { label: 'EPISODES', value: 51, href: '/' },
 ];
 
 export const сardsContent = [
@@ -96,5 +100,3 @@ export const сardsContent = [
         }
     },
 ];
-
-export const isOnline = true;
