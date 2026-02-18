@@ -9,7 +9,6 @@ import HeaderLink from './components/HeaderLink/HeaderLink.jsx';
 import './header.css'
 
 import { ButtonsContent } from '/src/constants.js'
-import { specialIconSrc } from '/src/constants.js'
 
 export default function Header() {
   return (
@@ -22,12 +21,7 @@ export default function Header() {
             text={button.text}
             href={button.href}
             isPrimary={button.isPrimary}
-          >
-
-            {button.isPrimary ? <div className="special-div">
-              <img src={specialIconSrc} alt="Special Icon" className="special-svg" />
-            </div> : null}
-          </HeaderButton>
+          />
         ))}
       </ul>
     </header>

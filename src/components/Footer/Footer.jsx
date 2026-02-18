@@ -1,8 +1,8 @@
-import { stats } from "../../constants";
-
 import "./Footer.css";
 
 import { isOnline } from "../../constants";
+import FooterInfo from "./components/FooterInfo/FooterInfo.jsx";
+import { stats } from "/src/constants";
 
 let statusColorClass = "";
 
@@ -17,12 +17,13 @@ export default function Footer() {
     return (
         <footer className="footer">
             <ul className="footer__stats">
-                {stats.map((item, index) => (
-                    <li key={index} className="footer__stats-item">
-                        <a href={item.href}>
-                            {item.label}: {item.value}
-                        </a>
-                    </li>
+                {stats.map((stats, index) => (
+                    <FooterInfo
+                        key={index}
+                        label={stats.label}
+                        value={stats.value}
+                        href={stats.href}
+                    />
                 ))}
             </ul>
             <a className="server-status">
